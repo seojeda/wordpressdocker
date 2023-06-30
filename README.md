@@ -10,7 +10,7 @@ Para esta implementación se usan los siguientes servicios:
 * AWS ECS
 * AWS Fargate
 * EC2 - Balanceador de carga
-
+* RDS 
 ---
 
 
@@ -177,8 +177,12 @@ Ya que tenemos la imagen de docker en nuestro ECR para poder ser utilizada, debe
 
 **Amazon Elastic Container Service (ECS)**
 
-* Crea el clúster correspondiente para poder ejecutar tareas.
-* Configura la tarea para la creación del contenedor usando la imagen que tienes en el ECR.
+* Configura correctamente el servicio para poder ejecutar tareas.
+
+**RDS**
+
+* Recuerda crear correctamente el cluster que usaras para esta implementacion
+
 
 # Ingreso a pagina web
 
