@@ -1,4 +1,3 @@
-
 # Implementación de WordPress en AWS utilizando contenedores
 
 Se presenta a continuación una guía para la implementación de un sitio web en WordPress, utilizando los archivos de este repositorio en el entorno de Amazon Web Services (AWS). 
@@ -11,6 +10,8 @@ Para esta implementación se usan los siguientes servicios:
 * AWS ECS
 * AWS Fargate
 * EC2 - Balanceador de carga
+
+---
 
 
 ## Instalacion Docker - Amazon Linux
@@ -41,6 +42,7 @@ docker version
 ```
 
 
+---
 
 ## Instalación GitHub - Amazon Linux
 
@@ -61,5 +63,8 @@ git --version
 ```  
 git init
 ```
+
+---
+
 
 # 
