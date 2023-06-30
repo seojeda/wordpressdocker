@@ -1,14 +1,51 @@
 # Instalacion WordPress Docker
-### 1. Download Dockerhub
-docker pull blupxd/repo1:wordpress
 
-### 1.2. Download GitHub
-git clone https://github.com/seojeda/wordpressdocker.git
+## Instalacion Docker - Amazon Linux
 
-## 2. Install
+**Instalación Docker:**
 
-docker pull blupxd/repo1:wordpress
+```  
+sudo amazon-linux-extras install docker
+```
 
-## Running
+**Inicio del servicio de Docker:**
 
-docker run --name docker1 -p 0.0.0.0:8080:80 blupxd/repo1:wordpress
+```  
+sudo service docker start
+```
+
+**Agrega tu usuario actual al grupo "docker"**
+
+```  
+sudo usermod -aG docker $USER
+```
+
+**Verificación de la instalación de Docker**
+
+
+```  
+docker version
+```
+
+
+
+## Instalación GitHub - Amazon Linux
+
+**Instalación Git:**
+
+```  
+sudo yum install git -y
+```
+
+**Verificación de Instalación:**
+
+```  
+git --version
+```
+
+**Crea un nuevo repositorio Git en el directorio actual**
+
+```  
+git init
+```
+
