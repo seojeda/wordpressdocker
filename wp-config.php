@@ -1,7 +1,7 @@
 <?php
 define('DB_NAME', 'word');
 define('DB_USER', 'admin');
-define('DB_PASSWORD', 'Megatron650.');
+define('DB_PASSWORD', 'Duoc.2023.');
 define('DB_HOST', 'cluster-bd-instance-1.curagnbr1nlv.us-east-1.rds.amazonaws.com');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
